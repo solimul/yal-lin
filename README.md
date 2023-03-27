@@ -1,2 +1,2 @@
-# yal-ddfw
-yal-ddfw is a stochastic local search SAT solver
+# yal-lin
+yal-lin is a stochastic local search SAT solver
