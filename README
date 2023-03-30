@@ -1,0 +1,13 @@
+yal-lin is a fast stochastic local search (SLS) SAT solver that implements an weight transferring algorithm.
+
+yal-lin is developed on top of Yalsat. Algorithms, Implmentation, and Experiments are presented in our NFM-2023 paper "A Linear Weight Transfer Rule for Local Search" (Md Solimul Chowdhury, Cayden Codel, Marijn Heule) 
+
+Build Commands
+-----------------
+./configure.sh
+make
+
+Run Instructions:
+-----------------
+* Run the default version with the command: ./yalsat cnf_file.cnf (without restart) 
+* To enable restart, add --innerrestart: ./yalsat --innerrestart cnf_file.cnf 
